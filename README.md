@@ -3,10 +3,9 @@ ipc_shared_memory
 
 IPC using Shared memory
 
-Steps to run
-------------
-- First run the server.
-- Then run the client.
+Author
+-----
+Love barista
 
 Server
 -----
@@ -19,4 +18,20 @@ Client
 ```
     gcc -o ser shm-server.c -lpthread
 ```
+
+Steps to run
+------------
+- First run the server.
+  ```
+      ./ser
+  ```
+- Then run the client.
+  ```
+      ./cli
+  ```
+
+Expected outout
+--------------
+- The client will print the message written in memory by the server.
+
 
